@@ -1,0 +1,272 @@
+30/06/2016 11:28:07 DEBUG protocol.RequestAddCookies - CookieSpec selected: default
+30/06/2016 11:28:07 DEBUG protocol.RequestAuthCache - Auth cache not set in the context
+30/06/2016 11:28:07 DEBUG conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+30/06/2016 11:28:07 DEBUG conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+30/06/2016 11:28:07 DEBUG execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7055
+30/06/2016 11:28:07 DEBUG conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7055
+30/06/2016 11:28:07 DEBUG conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:53558<->127.0.0.1:7055
+30/06/2016 11:28:07 DEBUG conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 10800000
+30/06/2016 11:28:07 DEBUG execchain.MainClientExec - Executing request POST /hub/session HTTP/1.1
+30/06/2016 11:28:07 DEBUG execchain.MainClientExec - Target auth state: UNCHALLENGED
+30/06/2016 11:28:07 DEBUG execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+30/06/2016 11:28:07 DEBUG http.headers - http-outgoing-0 >> POST /hub/session HTTP/1.1
+30/06/2016 11:28:07 DEBUG http.headers - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+30/06/2016 11:28:07 DEBUG http.headers - http-outgoing-0 >> Content-Length: 105
+30/06/2016 11:28:07 DEBUG http.headers - http-outgoing-0 >> Host: 127.0.0.1:7055
+30/06/2016 11:28:07 DEBUG http.headers - http-outgoing-0 >> Connection: Keep-Alive
+30/06/2016 11:28:07 DEBUG http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_51)
+30/06/2016 11:28:07 DEBUG http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+30/06/2016 11:28:07 DEBUG http.wire - http-outgoing-0 >> "POST /hub/session HTTP/1.1[\r][\n]"
+30/06/2016 11:28:07 DEBUG http.wire - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+30/06/2016 11:28:07 DEBUG http.wire - http-outgoing-0 >> "Content-Length: 105[\r][\n]"
+30/06/2016 11:28:07 DEBUG http.wire - http-outgoing-0 >> "Host: 127.0.0.1:7055[\r][\n]"
+30/06/2016 11:28:07 DEBUG http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+30/06/2016 11:28:07 DEBUG http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_51)[\r][\n]"
+30/06/2016 11:28:07 DEBUG http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+30/06/2016 11:28:07 DEBUG http.wire - http-outgoing-0 >> "[\r][\n]"
+30/06/2016 11:28:07 DEBUG http.wire - http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"firefox","version":"","platform":"ANY"},"requiredCapabilities":{}}"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-0 << "content-type: application/json; charset=UTF-8[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-0 << "connection: close[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-0 << "content-length: 421[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-0 << "server: httpd.js[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-0 << "date: Thu, 30 Jun 2016 05:58:07 GMT[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-0 << "[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+30/06/2016 11:28:08 DEBUG http.headers - http-outgoing-0 << content-type: application/json; charset=UTF-8
+30/06/2016 11:28:08 DEBUG http.headers - http-outgoing-0 << connection: close
+30/06/2016 11:28:08 DEBUG http.headers - http-outgoing-0 << content-length: 421
+30/06/2016 11:28:08 DEBUG http.headers - http-outgoing-0 << server: httpd.js
+30/06/2016 11:28:08 DEBUG http.headers - http-outgoing-0 << date: Thu, 30 Jun 2016 05:58:07 GMT
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-0 << "{"name":"newSession","sessionId":"f49b32ad-eda6-4db3-ae82-bfa2d66dc955","status":0,"value":{"cssSelectorsEnabled":true,"browserName":"firefox","handlesAlerts":true,"javascriptEnabled":true,"nativeEvents":false,"platform":"WINDOWS","rotatable":false,"takesScreenshot":true,"version":"44.0","webStorageEnabled":true,"applicationCacheEnabled":true,"databaseEnabled":true,"locationContextEnabled":true,"acceptSslCerts":true}}"
+30/06/2016 11:28:08 DEBUG conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+30/06/2016 11:28:08 DEBUG execchain.MainClientExec - Connection discarded
+30/06/2016 11:28:08 DEBUG conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+30/06/2016 11:28:08 INFO  logging.PropertyFileDemo - Firefox browser launched succesfully
+30/06/2016 11:28:08 DEBUG protocol.RequestAddCookies - CookieSpec selected: default
+30/06/2016 11:28:08 DEBUG protocol.RequestAuthCache - Auth cache not set in the context
+30/06/2016 11:28:08 DEBUG conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+30/06/2016 11:28:08 DEBUG conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+30/06/2016 11:28:08 DEBUG execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7055
+30/06/2016 11:28:08 DEBUG conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7055
+30/06/2016 11:28:08 DEBUG conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:53559<->127.0.0.1:7055
+30/06/2016 11:28:08 DEBUG conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 10800000
+30/06/2016 11:28:08 DEBUG execchain.MainClientExec - Executing request POST /hub/session/f49b32ad-eda6-4db3-ae82-bfa2d66dc955/url HTTP/1.1
+30/06/2016 11:28:08 DEBUG execchain.MainClientExec - Target auth state: UNCHALLENGED
+30/06/2016 11:28:08 DEBUG execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+30/06/2016 11:28:08 DEBUG http.headers - http-outgoing-1 >> POST /hub/session/f49b32ad-eda6-4db3-ae82-bfa2d66dc955/url HTTP/1.1
+30/06/2016 11:28:08 DEBUG http.headers - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+30/06/2016 11:28:08 DEBUG http.headers - http-outgoing-1 >> Content-Length: 27
+30/06/2016 11:28:08 DEBUG http.headers - http-outgoing-1 >> Host: 127.0.0.1:7055
+30/06/2016 11:28:08 DEBUG http.headers - http-outgoing-1 >> Connection: Keep-Alive
+30/06/2016 11:28:08 DEBUG http.headers - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_51)
+30/06/2016 11:28:08 DEBUG http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-1 >> "POST /hub/session/f49b32ad-eda6-4db3-ae82-bfa2d66dc955/url HTTP/1.1[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-1 >> "Content-Length: 27[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-1 >> "Host: 127.0.0.1:7055[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_51)[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-1 >> "[\r][\n]"
+30/06/2016 11:28:08 DEBUG http.wire - http-outgoing-1 >> "{"url":"http://google.com"}"
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-1 << "content-type: application/json; charset=UTF-8[\r][\n]"
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-1 << "connection: close[\r][\n]"
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-1 << "content-length: 87[\r][\n]"
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-1 << "server: httpd.js[\r][\n]"
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-1 << "date: Thu, 30 Jun 2016 05:58:14 GMT[\r][\n]"
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-1 << "[\r][\n]"
+30/06/2016 11:28:14 DEBUG http.headers - http-outgoing-1 << HTTP/1.1 200 OK
+30/06/2016 11:28:14 DEBUG http.headers - http-outgoing-1 << content-type: application/json; charset=UTF-8
+30/06/2016 11:28:14 DEBUG http.headers - http-outgoing-1 << connection: close
+30/06/2016 11:28:14 DEBUG http.headers - http-outgoing-1 << content-length: 87
+30/06/2016 11:28:14 DEBUG http.headers - http-outgoing-1 << server: httpd.js
+30/06/2016 11:28:14 DEBUG http.headers - http-outgoing-1 << date: Thu, 30 Jun 2016 05:58:14 GMT
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-1 << "{"name":"get","sessionId":"f49b32ad-eda6-4db3-ae82-bfa2d66dc955","status":0,"value":""}"
+30/06/2016 11:28:14 DEBUG conn.DefaultManagedHttpClientConnection - http-outgoing-1: Close connection
+30/06/2016 11:28:14 DEBUG execchain.MainClientExec - Connection discarded
+30/06/2016 11:28:14 DEBUG conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+30/06/2016 11:28:14 DEBUG protocol.RequestAddCookies - CookieSpec selected: default
+30/06/2016 11:28:14 DEBUG protocol.RequestAuthCache - Auth cache not set in the context
+30/06/2016 11:28:14 DEBUG conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+30/06/2016 11:28:14 DEBUG conn.PoolingHttpClientConnectionManager - Connection leased: [id: 2][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+30/06/2016 11:28:14 DEBUG execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7055
+30/06/2016 11:28:14 DEBUG conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7055
+30/06/2016 11:28:14 DEBUG conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:53588<->127.0.0.1:7055
+30/06/2016 11:28:14 DEBUG conn.DefaultManagedHttpClientConnection - http-outgoing-2: set socket timeout to 10800000
+30/06/2016 11:28:14 DEBUG execchain.MainClientExec - Executing request GET /hub/session/f49b32ad-eda6-4db3-ae82-bfa2d66dc955/url HTTP/1.1
+30/06/2016 11:28:14 DEBUG execchain.MainClientExec - Target auth state: UNCHALLENGED
+30/06/2016 11:28:14 DEBUG execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+30/06/2016 11:28:14 DEBUG http.headers - http-outgoing-2 >> GET /hub/session/f49b32ad-eda6-4db3-ae82-bfa2d66dc955/url HTTP/1.1
+30/06/2016 11:28:14 DEBUG http.headers - http-outgoing-2 >> Cache-Control: no-cache
+30/06/2016 11:28:14 DEBUG http.headers - http-outgoing-2 >> Host: 127.0.0.1:7055
+30/06/2016 11:28:14 DEBUG http.headers - http-outgoing-2 >> Connection: Keep-Alive
+30/06/2016 11:28:14 DEBUG http.headers - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_51)
+30/06/2016 11:28:14 DEBUG http.headers - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-2 >> "GET /hub/session/f49b32ad-eda6-4db3-ae82-bfa2d66dc955/url HTTP/1.1[\r][\n]"
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-2 >> "Cache-Control: no-cache[\r][\n]"
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-2 >> "Host: 127.0.0.1:7055[\r][\n]"
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_51)[\r][\n]"
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+30/06/2016 11:28:14 DEBUG http.wire - http-outgoing-2 >> "[\r][\n]"
+30/06/2016 11:28:15 DEBUG http.wire - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+30/06/2016 11:28:15 DEBUG http.wire - http-outgoing-2 << "content-type: application/json; charset=UTF-8[\r][\n]"
+30/06/2016 11:28:15 DEBUG http.wire - http-outgoing-2 << "connection: close[\r][\n]"
+30/06/2016 11:28:15 DEBUG http.wire - http-outgoing-2 << "content-length: 169[\r][\n]"
+30/06/2016 11:28:15 DEBUG http.wire - http-outgoing-2 << "server: httpd.js[\r][\n]"
+30/06/2016 11:28:15 DEBUG http.wire - http-outgoing-2 << "date: Thu, 30 Jun 2016 05:58:15 GMT[\r][\n]"
+30/06/2016 11:28:15 DEBUG http.wire - http-outgoing-2 << "[\r][\n]"
+30/06/2016 11:28:15 DEBUG http.headers - http-outgoing-2 << HTTP/1.1 200 OK
+30/06/2016 11:28:15 DEBUG http.headers - http-outgoing-2 << content-type: application/json; charset=UTF-8
+30/06/2016 11:28:15 DEBUG http.headers - http-outgoing-2 << connection: close
+30/06/2016 11:28:15 DEBUG http.headers - http-outgoing-2 << content-length: 169
+30/06/2016 11:28:15 DEBUG http.headers - http-outgoing-2 << server: httpd.js
+30/06/2016 11:28:15 DEBUG http.headers - http-outgoing-2 << date: Thu, 30 Jun 2016 05:58:15 GMT
+30/06/2016 11:28:15 DEBUG http.wire - http-outgoing-2 << "{"name":"getCurrentUrl","sessionId":"f49b32ad-eda6-4db3-ae82-bfa2d66dc955","status":0,"value":"https://www.google.co.in/?gfe_rd=cr&ei=8bR0V9ypL_HI8Ae_trfIDw&gws_rd=ssl"}"
+30/06/2016 11:28:15 DEBUG conn.DefaultManagedHttpClientConnection - http-outgoing-2: Close connection
+30/06/2016 11:28:15 DEBUG execchain.MainClientExec - Connection discarded
+30/06/2016 11:28:15 DEBUG conn.PoolingHttpClientConnectionManager - Connection released: [id: 2][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+30/06/2016 11:28:15 DEBUG logging.PropertyFileDemo - driver navigated to https://www.google.co.in/?gfe_rd=cr&ei=8bR0V9ypL_HI8Ae_trfIDw&gws_rd=ssl
+30/06/2016 11:28:15 INFO  logging.PropertyFileDemo - second message
+30/06/2016 11:28:15 ERROR logging.PropertyFileDemo - third message
+30/06/2016 11:38:40 DEBUG protocol.RequestAddCookies - CookieSpec selected: default
+30/06/2016 11:38:40 DEBUG protocol.RequestAuthCache - Auth cache not set in the context
+30/06/2016 11:38:40 DEBUG conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+30/06/2016 11:38:40 DEBUG conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+30/06/2016 11:38:40 DEBUG execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7055
+30/06/2016 11:38:40 DEBUG conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7055
+30/06/2016 11:38:40 DEBUG conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:53617<->127.0.0.1:7055
+30/06/2016 11:38:40 DEBUG conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 10800000
+30/06/2016 11:38:40 DEBUG execchain.MainClientExec - Executing request POST /hub/session HTTP/1.1
+30/06/2016 11:38:40 DEBUG execchain.MainClientExec - Target auth state: UNCHALLENGED
+30/06/2016 11:38:40 DEBUG execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+30/06/2016 11:38:40 DEBUG http.headers - http-outgoing-0 >> POST /hub/session HTTP/1.1
+30/06/2016 11:38:40 DEBUG http.headers - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+30/06/2016 11:38:40 DEBUG http.headers - http-outgoing-0 >> Content-Length: 105
+30/06/2016 11:38:40 DEBUG http.headers - http-outgoing-0 >> Host: 127.0.0.1:7055
+30/06/2016 11:38:40 DEBUG http.headers - http-outgoing-0 >> Connection: Keep-Alive
+30/06/2016 11:38:40 DEBUG http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_51)
+30/06/2016 11:38:40 DEBUG http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+30/06/2016 11:38:40 DEBUG http.wire - http-outgoing-0 >> "POST /hub/session HTTP/1.1[\r][\n]"
+30/06/2016 11:38:40 DEBUG http.wire - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+30/06/2016 11:38:40 DEBUG http.wire - http-outgoing-0 >> "Content-Length: 105[\r][\n]"
+30/06/2016 11:38:40 DEBUG http.wire - http-outgoing-0 >> "Host: 127.0.0.1:7055[\r][\n]"
+30/06/2016 11:38:40 DEBUG http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+30/06/2016 11:38:40 DEBUG http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_51)[\r][\n]"
+30/06/2016 11:38:40 DEBUG http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+30/06/2016 11:38:40 DEBUG http.wire - http-outgoing-0 >> "[\r][\n]"
+30/06/2016 11:38:40 DEBUG http.wire - http-outgoing-0 >> "{"desiredCapabilities":{"browserName":"firefox","version":"","platform":"ANY"},"requiredCapabilities":{}}"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-0 << "content-type: application/json; charset=UTF-8[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-0 << "connection: close[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-0 << "content-length: 421[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-0 << "server: httpd.js[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-0 << "date: Thu, 30 Jun 2016 06:08:41 GMT[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-0 << "[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+30/06/2016 11:38:41 DEBUG http.headers - http-outgoing-0 << content-type: application/json; charset=UTF-8
+30/06/2016 11:38:41 DEBUG http.headers - http-outgoing-0 << connection: close
+30/06/2016 11:38:41 DEBUG http.headers - http-outgoing-0 << content-length: 421
+30/06/2016 11:38:41 DEBUG http.headers - http-outgoing-0 << server: httpd.js
+30/06/2016 11:38:41 DEBUG http.headers - http-outgoing-0 << date: Thu, 30 Jun 2016 06:08:41 GMT
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-0 << "{"name":"newSession","sessionId":"721d398c-d807-4174-8c67-1e71365afebe","status":0,"value":{"cssSelectorsEnabled":true,"browserName":"firefox","handlesAlerts":true,"javascriptEnabled":true,"nativeEvents":false,"platform":"WINDOWS","rotatable":false,"takesScreenshot":true,"version":"44.0","webStorageEnabled":true,"applicationCacheEnabled":true,"databaseEnabled":true,"locationContextEnabled":true,"acceptSslCerts":true}}"
+30/06/2016 11:38:41 DEBUG conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+30/06/2016 11:38:41 DEBUG execchain.MainClientExec - Connection discarded
+30/06/2016 11:38:41 DEBUG conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+30/06/2016 11:38:41 INFO  logging.PropertyFileDemo - Firefox browser launched succesfully
+30/06/2016 11:38:41 DEBUG protocol.RequestAddCookies - CookieSpec selected: default
+30/06/2016 11:38:41 DEBUG protocol.RequestAuthCache - Auth cache not set in the context
+30/06/2016 11:38:41 DEBUG conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+30/06/2016 11:38:41 DEBUG conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+30/06/2016 11:38:41 DEBUG execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7055
+30/06/2016 11:38:41 DEBUG conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7055
+30/06/2016 11:38:41 DEBUG conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:53618<->127.0.0.1:7055
+30/06/2016 11:38:41 DEBUG conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 10800000
+30/06/2016 11:38:41 DEBUG execchain.MainClientExec - Executing request POST /hub/session/721d398c-d807-4174-8c67-1e71365afebe/url HTTP/1.1
+30/06/2016 11:38:41 DEBUG execchain.MainClientExec - Target auth state: UNCHALLENGED
+30/06/2016 11:38:41 DEBUG execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+30/06/2016 11:38:41 DEBUG http.headers - http-outgoing-1 >> POST /hub/session/721d398c-d807-4174-8c67-1e71365afebe/url HTTP/1.1
+30/06/2016 11:38:41 DEBUG http.headers - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+30/06/2016 11:38:41 DEBUG http.headers - http-outgoing-1 >> Content-Length: 27
+30/06/2016 11:38:41 DEBUG http.headers - http-outgoing-1 >> Host: 127.0.0.1:7055
+30/06/2016 11:38:41 DEBUG http.headers - http-outgoing-1 >> Connection: Keep-Alive
+30/06/2016 11:38:41 DEBUG http.headers - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_51)
+30/06/2016 11:38:41 DEBUG http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-1 >> "POST /hub/session/721d398c-d807-4174-8c67-1e71365afebe/url HTTP/1.1[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-1 >> "Content-Length: 27[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-1 >> "Host: 127.0.0.1:7055[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_51)[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-1 >> "[\r][\n]"
+30/06/2016 11:38:41 DEBUG http.wire - http-outgoing-1 >> "{"url":"http://google.com"}"
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-1 << "content-type: application/json; charset=UTF-8[\r][\n]"
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-1 << "connection: close[\r][\n]"
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-1 << "content-length: 87[\r][\n]"
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-1 << "server: httpd.js[\r][\n]"
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-1 << "date: Thu, 30 Jun 2016 06:09:04 GMT[\r][\n]"
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-1 << "[\r][\n]"
+30/06/2016 11:39:04 DEBUG http.headers - http-outgoing-1 << HTTP/1.1 200 OK
+30/06/2016 11:39:04 DEBUG http.headers - http-outgoing-1 << content-type: application/json; charset=UTF-8
+30/06/2016 11:39:04 DEBUG http.headers - http-outgoing-1 << connection: close
+30/06/2016 11:39:04 DEBUG http.headers - http-outgoing-1 << content-length: 87
+30/06/2016 11:39:04 DEBUG http.headers - http-outgoing-1 << server: httpd.js
+30/06/2016 11:39:04 DEBUG http.headers - http-outgoing-1 << date: Thu, 30 Jun 2016 06:09:04 GMT
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-1 << "{"name":"get","sessionId":"721d398c-d807-4174-8c67-1e71365afebe","status":0,"value":""}"
+30/06/2016 11:39:04 DEBUG conn.DefaultManagedHttpClientConnection - http-outgoing-1: Close connection
+30/06/2016 11:39:04 DEBUG execchain.MainClientExec - Connection discarded
+30/06/2016 11:39:04 DEBUG conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+30/06/2016 11:39:04 DEBUG protocol.RequestAddCookies - CookieSpec selected: default
+30/06/2016 11:39:04 DEBUG protocol.RequestAuthCache - Auth cache not set in the context
+30/06/2016 11:39:04 DEBUG conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+30/06/2016 11:39:04 DEBUG conn.PoolingHttpClientConnectionManager - Connection leased: [id: 2][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+30/06/2016 11:39:04 DEBUG execchain.MainClientExec - Opening connection {}->http://127.0.0.1:7055
+30/06/2016 11:39:04 DEBUG conn.DefaultHttpClientConnectionOperator - Connecting to /127.0.0.1:7055
+30/06/2016 11:39:04 DEBUG conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:53642<->127.0.0.1:7055
+30/06/2016 11:39:04 DEBUG conn.DefaultManagedHttpClientConnection - http-outgoing-2: set socket timeout to 10800000
+30/06/2016 11:39:04 DEBUG execchain.MainClientExec - Executing request GET /hub/session/721d398c-d807-4174-8c67-1e71365afebe/url HTTP/1.1
+30/06/2016 11:39:04 DEBUG execchain.MainClientExec - Target auth state: UNCHALLENGED
+30/06/2016 11:39:04 DEBUG execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+30/06/2016 11:39:04 DEBUG http.headers - http-outgoing-2 >> GET /hub/session/721d398c-d807-4174-8c67-1e71365afebe/url HTTP/1.1
+30/06/2016 11:39:04 DEBUG http.headers - http-outgoing-2 >> Cache-Control: no-cache
+30/06/2016 11:39:04 DEBUG http.headers - http-outgoing-2 >> Host: 127.0.0.1:7055
+30/06/2016 11:39:04 DEBUG http.headers - http-outgoing-2 >> Connection: Keep-Alive
+30/06/2016 11:39:04 DEBUG http.headers - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_51)
+30/06/2016 11:39:04 DEBUG http.headers - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-2 >> "GET /hub/session/721d398c-d807-4174-8c67-1e71365afebe/url HTTP/1.1[\r][\n]"
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-2 >> "Cache-Control: no-cache[\r][\n]"
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-2 >> "Host: 127.0.0.1:7055[\r][\n]"
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_51)[\r][\n]"
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+30/06/2016 11:39:04 DEBUG http.wire - http-outgoing-2 >> "[\r][\n]"
+30/06/2016 11:39:05 DEBUG http.wire - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+30/06/2016 11:39:05 DEBUG http.wire - http-outgoing-2 << "content-type: application/json; charset=UTF-8[\r][\n]"
+30/06/2016 11:39:05 DEBUG http.wire - http-outgoing-2 << "connection: close[\r][\n]"
+30/06/2016 11:39:05 DEBUG http.wire - http-outgoing-2 << "content-length: 169[\r][\n]"
+30/06/2016 11:39:05 DEBUG http.wire - http-outgoing-2 << "server: httpd.js[\r][\n]"
+30/06/2016 11:39:05 DEBUG http.wire - http-outgoing-2 << "date: Thu, 30 Jun 2016 06:09:05 GMT[\r][\n]"
+30/06/2016 11:39:05 DEBUG http.wire - http-outgoing-2 << "[\r][\n]"
+30/06/2016 11:39:05 DEBUG http.headers - http-outgoing-2 << HTTP/1.1 200 OK
+30/06/2016 11:39:05 DEBUG http.headers - http-outgoing-2 << content-type: application/json; charset=UTF-8
+30/06/2016 11:39:05 DEBUG http.headers - http-outgoing-2 << connection: close
+30/06/2016 11:39:05 DEBUG http.headers - http-outgoing-2 << content-length: 169
+30/06/2016 11:39:05 DEBUG http.headers - http-outgoing-2 << server: httpd.js
+30/06/2016 11:39:05 DEBUG http.headers - http-outgoing-2 << date: Thu, 30 Jun 2016 06:09:05 GMT
+30/06/2016 11:39:05 DEBUG http.wire - http-outgoing-2 << "{"name":"getCurrentUrl","sessionId":"721d398c-d807-4174-8c67-1e71365afebe","status":0,"value":"https://www.google.co.in/?gfe_rd=cr&ei=ard0V7OJI_HI8Ae_trfIDw&gws_rd=ssl"}"
+30/06/2016 11:39:05 DEBUG conn.DefaultManagedHttpClientConnection - http-outgoing-2: Close connection
+30/06/2016 11:39:05 DEBUG execchain.MainClientExec - Connection discarded
+30/06/2016 11:39:05 DEBUG conn.PoolingHttpClientConnectionManager - Connection released: [id: 2][route: {}->http://127.0.0.1:7055][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+30/06/2016 11:39:05 DEBUG logging.PropertyFileDemo - driver navigated to https://www.google.co.in/?gfe_rd=cr&ei=ard0V7OJI_HI8Ae_trfIDw&gws_rd=ssl
+30/06/2016 11:39:05 INFO  logging.PropertyFileDemo - second message
+30/06/2016 11:39:05 ERROR logging.PropertyFileDemo - third message2
+30/06/2016 11:41:30 INFO  logging.PropertyFileDemo - Firefox browser launched succesfully
+30/06/2016 11:41:30 INFO  logging.PropertyFileDemo - second message
+30/06/2016 11:41:30 ERROR logging.PropertyFileDemo - third message2
+30/06/2016 11:44:16 INFO  logging.PropertyFileDemo - Firefox browser launched succesfully
+30/06/2016 11:44:16 INFO  logging.PropertyFileDemo - second message3
+30/06/2016 11:44:16 ERROR logging.PropertyFileDemo - third message3

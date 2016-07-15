@@ -1,0 +1,9 @@
+30.06.16 02:03:46 -DEBUG wire http-outgoing-0 << "date: Thu, 30 Jun 2016 08:33:46 GMT[\r][\n]"
+30.06.16 02:03:46 -DEBUG wire http-outgoing-0 << "[\r][\n]"
+30.06.16 02:03:46 -DEBUG headers http-outgoing-0 << HTTP/1.1 200 OK
+30.06.16 02:03:46 -DEBUG headers http-outgoing-0 << content-type: application/json; charset=UTF-8
+30.06.16 02:03:46 -DEBUG headers http-outgoing-0 << connection: close
+30.06.16 02:03:46 -DEBUG headers http-outgoing-0 << content-length: 421
+30.06.16 02:03:46 -DEBUG headers http-outgoing-0 << server: httpd.js
+30.06.16 02:03:46 -DEBUG headers http-outgoing-0 << date: Thu, 30 Jun 2016 08:33:46 GMT
+30.06.16 02:03:46 -DEBUG wire http-outgoing-0 << "{"name":"newSession","sessionId":"c76e63d8-265f-403d-bf1c-594ee5ec30d3","status":0,"value":{"cssSelectorsEnabled":true,"browserName":"firefox","handlesAlerts":true,"javascriptEnabled":true,"nativeEvents":false,"platform":"WINDOWS","rotatable":false,"takesScreenshot":true,"version":"44.0","webStorageEnabled":true,"applicationCacheEnabled":true,"databaseEnabled":true,"locationContextEnabled":true,"acceptSslCerts":true}}"
